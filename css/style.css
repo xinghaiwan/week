@@ -13,4 +13,55 @@ html {
   height: 100%;
   overflow: hidden;
   display: flex;
+  display: flex;
   flex-direction: column; }
+  .wrapper header {
+    width: 100%;
+    height: 44px;
+    background: black;
+    color: #fff;
+    display: flex; }
+    .wrapper header span:nth-child(1) {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .wrapper header span:nth-child(2) {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .wrapper header span:nth-child(3) {
+      width: 10%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+  .wrapper .top {
+    width: 100%;
+    height: 40px;
+    background: #666;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    box-sizing: border-box; }
+  .wrapper .ins {
+    width: 100%;
+    height: 80px;
+    display: flex; }
+    .wrapper .ins div {
+      width: 80%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .wrapper .ins i {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
